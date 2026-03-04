@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|c:\\users\\admin\\documents\\hoc\\ki8\\prm\\project\\project_prm393\\studentlifeapp_be\\studentlifeapp_be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|solutionrelative:studentlifeapp_be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|c:\\users\\admin\\documents\\hoc\\ki8\\prm\\project\\project_prm393\\studentlifeapp_be\\studentlifeapp_be\\models\\lmsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|solutionrelative:studentlifeapp_be\\models\\lmsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|c:\\users\\admin\\documents\\hoc\\ki8\\prm\\project\\project_prm393\\studentlifeapp_be\\studentlifeapp_be\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|solutionrelative:studentlifeapp_be\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|c:\\users\\admin\\documents\\hoc\\ki8\\prm\\project\\project_prm393\\studentlifeapp_be\\studentlifeapp_be\\migrations\\lmsdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|solutionrelative:studentlifeapp_be\\migrations\\lmsdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|c:\\users\\admin\\documents\\hoc\\ki8\\prm\\project\\project_prm393\\studentlifeapp_be\\studentlifeapp_be\\models\\assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|solutionrelative:studentlifeapp_be\\models\\assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|c:\\users\\admin\\documents\\hoc\\ki8\\prm\\project\\project_prm393\\studentlifeapp_be\\studentlifeapp_be\\services\\scoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|solutionrelative:studentlifeapp_be\\services\\scoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|c:\\users\\admin\\documents\\hoc\\ki8\\prm\\project\\project_prm393\\studentlifeapp_be\\studentlifeapp_be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|solutionrelative:studentlifeapp_be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|c:\\users\\admin\\documents\\hoc\\ki8\\prm\\project\\project_prm393\\studentlifeapp_be\\studentlifeapp_be\\controllers\\scorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,14 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|c:\\users\\admin\\documents\\hoc\\ki8\\prm\\project\\project_prm393\\studentlifeapp_be\\studentlifeapp_be\\helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|solutionrelative:studentlifeapp_be\\helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|c:\\users\\admin\\documents\\hoc\\ki8\\prm\\project\\project_prm393\\studentlifeapp_be\\studentlifeapp_be\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|solutionrelative:studentlifeapp_be\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|c:\\users\\admin\\documents\\hoc\\ki8\\prm\\project\\project_prm393\\studentlifeapp_be\\studentlifeapp_be\\models\\lmsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|solutionrelative:studentlifeapp_be\\models\\lmsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|c:\\users\\admin\\documents\\hoc\\ki8\\prm\\project\\project_prm393\\studentlifeapp_be\\studentlifeapp_be\\services\\interfaces\\iassignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -490,46 +498,50 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ScoreController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\Controllers\\ScoreController.cs",
-              "RelativeDocumentMoniker": "StudentLifeApp_BE\\Controllers\\ScoreController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\Controllers\\ScoreController.cs",
-              "RelativeToolTip": "StudentLifeApp_BE\\Controllers\\ScoreController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Assignment.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\Models\\Assignment.cs",
+              "RelativeDocumentMoniker": "StudentLifeApp_BE\\Models\\Assignment.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\Models\\Assignment.cs",
+              "RelativeToolTip": "StudentLifeApp_BE\\Models\\Assignment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T09:13:00.079Z",
+              "WhenOpened": "2026-03-04T13:31:37.419Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "LmsDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\Migrations\\LmsDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "StudentLifeApp_BE\\Migrations\\LmsDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\Migrations\\LmsDbContextModelSnapshot.cs",
+              "RelativeToolTip": "StudentLifeApp_BE\\Migrations\\LmsDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T13:31:27.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:64:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ScoreService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\Services\\ScoreService.cs",
               "RelativeDocumentMoniker": "StudentLifeApp_BE\\Services\\ScoreService.cs",
               "ToolTip": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\Services\\ScoreService.cs",
               "RelativeToolTip": "StudentLifeApp_BE\\Services\\ScoreService.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAAABoAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA8wDwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-04T09:11:34.319Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "InsertScoreDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\DTOs\\InsertScoreDTO.cs",
-              "RelativeDocumentMoniker": "StudentLifeApp_BE\\DTOs\\InsertScoreDTO.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\DTOs\\InsertScoreDTO.cs",
-              "RelativeToolTip": "StudentLifeApp_BE\\DTOs\\InsertScoreDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T09:10:59.78Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "IAssignmentService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\Services\\Interfaces\\IAssignmentService.cs",
               "RelativeDocumentMoniker": "StudentLifeApp_BE\\Services\\Interfaces\\IAssignmentService.cs",
@@ -537,12 +549,11 @@
               "RelativeToolTip": "StudentLifeApp_BE\\Services\\Interfaces\\IAssignmentService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T08:25:33.425Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-04T08:25:33.425Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "JwtHelper.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\Helpers\\JwtHelper.cs",
               "RelativeDocumentMoniker": "StudentLifeApp_BE\\Helpers\\JwtHelper.cs",
@@ -550,12 +561,11 @@
               "RelativeToolTip": "StudentLifeApp_BE\\Helpers\\JwtHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T08:25:14.394Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-04T08:25:14.394Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "StudentLifeApp_BE.csproj",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\StudentLifeApp_BE.csproj",
               "RelativeDocumentMoniker": "StudentLifeApp_BE\\StudentLifeApp_BE.csproj",
@@ -567,20 +577,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "LmsDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\Models\\LmsDbContext.cs",
               "RelativeDocumentMoniker": "StudentLifeApp_BE\\Models\\LmsDbContext.cs",
               "ToolTip": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\Models\\LmsDbContext.cs",
               "RelativeToolTip": "StudentLifeApp_BE\\Models\\LmsDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAcwCYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-02T07:27:56.614Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\appsettings.json",
+              "RelativeDocumentMoniker": "StudentLifeApp_BE\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\appsettings.json",
+              "RelativeToolTip": "StudentLifeApp_BE\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-02T07:26:15.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InsertScoreDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\DTOs\\InsertScoreDTO.cs",
+              "RelativeDocumentMoniker": "StudentLifeApp_BE\\DTOs\\InsertScoreDTO.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\DTOs\\InsertScoreDTO.cs",
+              "RelativeToolTip": "StudentLifeApp_BE\\DTOs\\InsertScoreDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T09:10:59.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\Program.cs",
               "RelativeDocumentMoniker": "StudentLifeApp_BE\\Program.cs",
@@ -593,7 +628,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
+              "Title": "ScoreController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\Controllers\\ScoreController.cs",
+              "RelativeDocumentMoniker": "StudentLifeApp_BE\\Controllers\\ScoreController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\Controllers\\ScoreController.cs",
+              "RelativeToolTip": "StudentLifeApp_BE\\Controllers\\ScoreController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T09:13:00.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "CreateAssignmentDTO.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\DTOs\\AssignmentDTOs\\CreateAssignmentDTO.cs",
               "RelativeDocumentMoniker": "StudentLifeApp_BE\\DTOs\\AssignmentDTOs\\CreateAssignmentDTO.cs",
@@ -602,19 +649,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-04T08:24:02.438Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\appsettings.json",
-              "RelativeDocumentMoniker": "StudentLifeApp_BE\\appsettings.json",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\appsettings.json",
-              "RelativeToolTip": "StudentLifeApp_BE\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-02T07:26:15.081Z",
-              "EditorCaption": ""
             }
           ]
         },

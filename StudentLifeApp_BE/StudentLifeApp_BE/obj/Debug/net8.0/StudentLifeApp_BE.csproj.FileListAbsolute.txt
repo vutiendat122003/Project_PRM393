@@ -290,4 +290,3 @@ C:\Users\Admin\Documents\hoc\KI8\PRM\PROJECT\Project_PRM393\StudentLifeApp_BE\St
 C:\Users\Admin\Documents\hoc\KI8\PRM\PROJECT\Project_PRM393\StudentLifeApp_BE\StudentLifeApp_BE\obj\Debug\net8.0\StudentLifeApp_BE.pdb
 C:\Users\Admin\Documents\hoc\KI8\PRM\PROJECT\Project_PRM393\StudentLifeApp_BE\StudentLifeApp_BE\obj\Debug\net8.0\StudentLifeApp_BE.genruntimeconfig.cache
 C:\Users\Admin\Documents\hoc\KI8\PRM\PROJECT\Project_PRM393\StudentLifeApp_BE\StudentLifeApp_BE\obj\Debug\net8.0\ref\StudentLifeApp_BE.dll
-C:\Users\Admin\Documents\hoc\KI8\PRM\PROJECT\Project_PRM393\StudentLifeApp_BE\StudentLifeApp_BE\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

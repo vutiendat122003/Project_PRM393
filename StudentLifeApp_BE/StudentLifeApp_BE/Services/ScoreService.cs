@@ -58,8 +58,11 @@ namespace StudentLifeApp_BE.Services
 
             foreach (var item in data)
             {
-                total += (double)(item.Score * item.Credits);
-                totalCredits += item.Credits;
+                if (item.Score.HasValue)
+                {
+                    total += item.Score.Value * item.Credits;
+                    totalCredits += item.Credits;
+                }
             }
 
             if (totalCredits == 0)

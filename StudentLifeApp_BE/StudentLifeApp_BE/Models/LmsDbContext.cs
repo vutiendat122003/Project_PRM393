@@ -33,7 +33,7 @@ public partial class LmsDbContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("server =DESKTOP-22Q8721\\SQLEXPRESS; database = LMS_DB; uid=sa;pwd=12345678;Trusted_Connection=True;Encrypt=False");
+        => optionsBuilder.UseSqlServer("Server = localhost; Database=LMS_DB;Trusted_Connection=True;TrustServerCertificate=True");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -184,6 +184,285 @@ public partial class LmsDbContext : DbContext
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_User_Role");
         });
+
+        // ---------- Seeding bằng Fluent API (HasData) ----------
+        // Lưu ý: khi dùng HasData phải chỉ định các giá trị khóa (ids) tĩnh.
+
+        // Roles (3 records)
+        modelBuilder.Entity<Role>().HasData(
+            new Role { RoleId = 1, RoleName = "Admin" },
+            new Role { RoleId = 2, RoleName = "Teacher" },
+            new Role { RoleId = 3, RoleName = "Student" }
+        );
+
+        // Users (6 records: 1 admin, 1 teacher, 4 students)
+        modelBuilder.Entity<User>().HasData(
+            new User
+            {
+                UserId = 1,
+                FullName = "Admin User",
+                Email = "admin@lms.local",
+                PasswordHash = "admin-placeholder-hash",
+                RoleId = 1,
+                CreatedAt = new DateTime(2026, 3, 4, 8, 0, 0, DateTimeKind.Utc)
+            },
+            new User
+            {
+                UserId = 2,
+                FullName = "Teacher One",
+                Email = "teacher1@lms.local",
+                PasswordHash = "teacher-placeholder-hash",
+                RoleId = 2,
+                CreatedAt = new DateTime(2026, 3, 4, 8, 0, 0, DateTimeKind.Utc)
+            },
+            new User
+            {
+                UserId = 3,
+                FullName = "Student One",
+                Email = "student1@lms.local",
+                PasswordHash = "student-placeholder-hash",
+                RoleId = 3,
+                StudentCode = "S001",
+                CreatedAt = new DateTime(2026, 3, 4, 8, 0, 0, DateTimeKind.Utc)
+            },
+            new User
+            {
+                UserId = 4,
+                FullName = "Student Two",
+                Email = "student2@lms.local",
+                PasswordHash = "student2-placeholder-hash",
+                RoleId = 3,
+                StudentCode = "S002",
+                CreatedAt = new DateTime(2026, 3, 4, 8, 0, 0, DateTimeKind.Utc)
+            },
+            new User
+            {
+                UserId = 5,
+                FullName = "Student Three",
+                Email = "student3@lms.local",
+                PasswordHash = "student3-placeholder-hash",
+                RoleId = 3,
+                StudentCode = "S003",
+                CreatedAt = new DateTime(2026, 3, 4, 8, 0, 0, DateTimeKind.Utc)
+            },
+            new User
+            {
+                UserId = 6,
+                FullName = "Student Four",
+                Email = "student4@lms.local",
+                PasswordHash = "student4-placeholder-hash",
+                RoleId = 3,
+                StudentCode = "S004",
+                CreatedAt = new DateTime(2026, 3, 4, 8, 0, 0, DateTimeKind.Utc)
+            }
+        );
+
+        // Subjects (4 records)
+        modelBuilder.Entity<Subject>().HasData(
+            new Subject { SubjectId = 1, SubjectName = "Mathematics", Credits = 3, Description = "Basic mathematics and algebra" },
+            new Subject { SubjectId = 2, SubjectName = "Physics", Credits = 4, Description = "Introductory physics and mechanics" },
+            new Subject { SubjectId = 3, SubjectName = "English", Credits = 2, Description = "English communication and writing" },
+            new Subject { SubjectId = 4, SubjectName = "Chemistry", Credits = 3, Description = "General chemistry and reactions" }
+        );
+
+        // Assignments (6 records: từng subject có 1-2 assignments)
+        modelBuilder.Entity<Assignment>().HasData(
+            new Assignment
+            {
+                AssignmentId = 1,
+                Title = "Math Homework 1",
+                Deadline = new DateTime(2026, 3, 11, 23, 59, 0, DateTimeKind.Utc),
+                MaxScore = 10,
+                Weight = 0.2,
+                SubjectId = 1,
+                CreatedBy = 2
+            },
+            new Assignment
+            {
+                AssignmentId = 2,
+                Title = "Math Homework 2",
+                Deadline = new DateTime(2026, 3, 18, 23, 59, 0, DateTimeKind.Utc),
+                MaxScore = 10,
+                Weight = 0.2,
+                SubjectId = 1,
+                CreatedBy = 2
+            },
+            new Assignment
+            {
+                AssignmentId = 3,
+                Title = "Physics Lab Report",
+                Deadline = new DateTime(2026, 3, 14, 23, 59, 0, DateTimeKind.Utc),
+                MaxScore = 15,
+                Weight = 0.3,
+                SubjectId = 2,
+                CreatedBy = 2
+            },
+            new Assignment
+            {
+                AssignmentId = 4,
+                Title = "Physics Experiment",
+                Deadline = new DateTime(2026, 3, 21, 23, 59, 0, DateTimeKind.Utc),
+                MaxScore = 15,
+                Weight = 0.3,
+                SubjectId = 2,
+                CreatedBy = 2
+            },
+            new Assignment
+            {
+                AssignmentId = 5,
+                Title = "English Essay",
+                Deadline = new DateTime(2026, 3, 9, 23, 59, 0, DateTimeKind.Utc),
+                MaxScore = 20,
+                Weight = 0.5,
+                SubjectId = 3,
+                CreatedBy = 2
+            },
+            new Assignment
+            {
+                AssignmentId = 6,
+                Title = "Chemistry Lab",
+                Deadline = new DateTime(2026, 3, 17, 23, 59, 0, DateTimeKind.Utc),
+                MaxScore = 12,
+                Weight = 0.25,
+                SubjectId = 4,
+                CreatedBy = 2
+            }
+        );
+
+        // Enrollments (8 records: teacher + students enrolled in subjects)
+        modelBuilder.Entity<Enrollment>().HasData(
+            // Teacher enrollments in all subjects
+            new Enrollment { EnrollmentId = 1, UserId = 2, SubjectId = 1, IsTeacher = true },
+            new Enrollment { EnrollmentId = 2, UserId = 2, SubjectId = 2, IsTeacher = true },
+            new Enrollment { EnrollmentId = 3, UserId = 2, SubjectId = 3, IsTeacher = true },
+            new Enrollment { EnrollmentId = 4, UserId = 2, SubjectId = 4, IsTeacher = true },
+
+            // Student enrollments
+            new Enrollment { EnrollmentId = 5, UserId = 3, SubjectId = 1, IsTeacher = false },
+            new Enrollment { EnrollmentId = 6, UserId = 3, SubjectId = 2, IsTeacher = false },
+            new Enrollment { EnrollmentId = 7, UserId = 4, SubjectId = 1, IsTeacher = false },
+            new Enrollment { EnrollmentId = 8, UserId = 4, SubjectId = 3, IsTeacher = false }
+        );
+
+        // News (3 records)
+        modelBuilder.Entity<News>().HasData(
+            new News
+            {
+                NewsId = 1,
+                Title = "Welcome to LMS",
+                Content = "This is a seeded announcement for all users. Welcome to our Learning Management System!",
+                CreatedBy = 1,
+                TargetRoleId = null,
+                CreatedAt = new DateTime(2026, 3, 4, 8, 0, 0, DateTimeKind.Utc),
+                IsActive = true
+            },
+            new News
+            {
+                NewsId = 2,
+                Title = "System Maintenance",
+                Content = "System maintenance will occur on March 5th, 2026 from 2 AM to 4 AM UTC.",
+                CreatedBy = 1,
+                TargetRoleId = null,
+                CreatedAt = new DateTime(2026, 3, 4, 9, 30, 0, DateTimeKind.Utc),
+                IsActive = true
+            },
+            new News
+            {
+                NewsId = 3,
+                Title = "Assignment Deadline Reminder",
+                Content = "Please note that all assignments must be submitted before the deadline.",
+                CreatedBy = 2,
+                TargetRoleId = 3,
+                CreatedAt = new DateTime(2026, 3, 4, 10, 0, 0, DateTimeKind.Utc),
+                IsActive = true
+            }
+        );
+
+        // Notes (4 records: students' personal notes)
+        modelBuilder.Entity<Note>().HasData(
+            new Note
+            {
+                NoteId = 1,
+                UserId = 3,
+                Title = "Study Plan",
+                Content = "Study at least 1 hour/day for mathematics. Focus on algebra and geometry.",
+                CreatedAt = new DateTime(2026, 3, 4, 8, 0, 0, DateTimeKind.Utc),
+                IsPinned = true
+            },
+            new Note
+            {
+                NoteId = 2,
+                UserId = 3,
+                Title = "Physics Notes",
+                Content = "Review Newton's laws and kinematics before the next class.",
+                CreatedAt = new DateTime(2026, 3, 4, 12, 0, 0, DateTimeKind.Utc),
+                IsPinned = false
+            },
+            new Note
+            {
+                NoteId = 3,
+                UserId = 4,
+                Title = "English Vocabulary",
+                Content = "Learn 10 new vocabulary words every day for the essay assignment.",
+                CreatedAt = new DateTime(2026, 3, 4, 14, 0, 0, DateTimeKind.Utc),
+                IsPinned = false
+            },
+            new Note
+            {
+                NoteId = 4,
+                UserId = 5,
+                Title = "Chemistry Lab Preparation",
+                Content = "Prepare lab equipment and read the experiment procedure carefully.",
+                CreatedAt = new DateTime(2026, 3, 4, 15, 30, 0, DateTimeKind.Utc),
+                IsPinned = true
+            }
+        );
+
+        // StudentAssignmentStatus (5 records: student submissions with scores)
+        modelBuilder.Entity<StudentAssignmentStatus>().HasData(
+            new StudentAssignmentStatus
+            {
+                Id = 1,
+                AssignmentId = 1,
+                StudentId = 3,
+                Score = 9.0,
+                SubmittedAt = new DateTime(2026, 3, 3, 12, 0, 0, DateTimeKind.Utc)
+            },
+            new StudentAssignmentStatus
+            {
+                Id = 2,
+                AssignmentId = 1,
+                StudentId = 4,
+                Score = 8.5,
+                SubmittedAt = new DateTime(2026, 3, 3, 14, 0, 0, DateTimeKind.Utc)
+            },
+            new StudentAssignmentStatus
+            {
+                Id = 3,
+                AssignmentId = 3,
+                StudentId = 3,
+                Score = 13.0,
+                SubmittedAt = new DateTime(2026, 3, 2, 10, 0, 0, DateTimeKind.Utc)
+            },
+            new StudentAssignmentStatus
+            {
+                Id = 4,
+                AssignmentId = 5,
+                StudentId = 4,
+                Score = 18.0,
+                SubmittedAt = new DateTime(2026, 3, 1, 8, 0, 0, DateTimeKind.Utc)
+            },
+            new StudentAssignmentStatus
+            {
+                Id = 5,
+                AssignmentId = 6,
+                StudentId = 5,
+                Score = 11.0,
+                SubmittedAt = new DateTime(2026, 3, 4, 11, 0, 0, DateTimeKind.Utc)
+            }
+        );
+
+        // ---------- end seeding ----------
 
         OnModelCreatingPartial(modelBuilder);
     }
