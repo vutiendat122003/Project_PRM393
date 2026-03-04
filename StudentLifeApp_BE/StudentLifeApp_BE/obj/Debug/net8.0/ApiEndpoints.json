@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "StudentLifeApp_BE.Controllers.AssignmentsController",
+    "Method": "CreateAssignment",
+    "RelativePath": "api/Assignments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "assignment",
+        "Type": "StudentLifeApp_BE.Models.Assignment",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentLifeApp_BE.Controllers.AssignmentsController",
+    "Method": "GetAssignmentsBySubject",
+    "RelativePath": "api/Assignments/subject/{subjectId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "subjectId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
