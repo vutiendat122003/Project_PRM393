@@ -16,23 +16,20 @@ namespace StudentLifeApp_BE.Controllers
         }
 
         // GET: api/notes
-        // Get all notes for current user
         [HttpGet]
         public async Task<ActionResult<IEnumerable<object>>> GetNotes([FromQuery] int userId)
         {
             if (userId <= 0)
-            {
                 return BadRequest("User ID is required");
-            }
 
             var notes = await _context.Notes
-                .Where(n => n.UserID == userId)
+                .Where(n => n.UserId == userId)
                 .OrderByDescending(n => n.IsPinned)
                 .ThenByDescending(n => n.UpdatedAt)
                 .Select(n => new
                 {
-                    n.NoteID,
-                    n.UserID,
+                    n.NoteId,
+                    n.UserId,
                     n.Title,
                     n.Content,
                     n.IsPinned,
@@ -45,16 +42,15 @@ namespace StudentLifeApp_BE.Controllers
         }
 
         // GET: api/notes/5
-        // Get single note by ID
         [HttpGet("{id}")]
         public async Task<ActionResult<object>> GetNote(int id, [FromQuery] int userId)
         {
             var note = await _context.Notes
-                .Where(n => n.NoteID == id && n.UserID == userId)
+                .Where(n => n.NoteId == id && n.UserId == userId)
                 .Select(n => new
                 {
-                    n.NoteID,
-                    n.UserID,
+                    n.NoteId,
+                    n.UserId,
                     n.Title,
                     n.Content,
                     n.IsPinned,
@@ -64,26 +60,21 @@ namespace StudentLifeApp_BE.Controllers
                 .FirstOrDefaultAsync();
 
             if (note == null)
-            {
                 return NotFound(new { message = "Note not found or you don't have permission to view it" });
-            }
 
             return Ok(note);
         }
 
         // POST: api/notes
-        // Create new note
         [HttpPost]
         public async Task<ActionResult<object>> CreateNote([FromBody] CreateNoteDTO noteDto)
         {
             if (!ModelState.IsValid)
-            {
                 return BadRequest(ModelState);
-            }
 
             var note = new Note
             {
-                UserID = noteDto.UserID,
+                UserId = noteDto.UserId,
                 Title = noteDto.Title,
                 Content = noteDto.Content,
                 IsPinned = noteDto.IsPinned ?? false,
@@ -96,8 +87,8 @@ namespace StudentLifeApp_BE.Controllers
 
             var createdNote = new
             {
-                note.NoteID,
-                note.UserID,
+                note.NoteId,
+                note.UserId,
                 note.Title,
                 note.Content,
                 note.IsPinned,
@@ -105,28 +96,22 @@ namespace StudentLifeApp_BE.Controllers
                 note.UpdatedAt
             };
 
-            return CreatedAtAction(nameof(GetNote), new { id = note.NoteID, userId = note.UserID }, createdNote);
+            return CreatedAtAction(nameof(GetNote), new { id = note.NoteId, userId = note.UserId }, createdNote);
         }
 
         // PUT: api/notes/5
-        // Update existing note
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateNote(int id, [FromBody] UpdateNoteDTO noteDto)
         {
             if (!ModelState.IsValid)
-            {
                 return BadRequest(ModelState);
-            }
 
             var note = await _context.Notes
-                .FirstOrDefaultAsync(n => n.NoteID == id && n.UserID == noteDto.UserID);
+                .FirstOrDefaultAsync(n => n.NoteId == id && n.UserId == noteDto.UserId);
 
             if (note == null)
-            {
                 return NotFound(new { message = "Note not found or you don't have permission to update it" });
-            }
 
-            // Update fields
             note.Title = noteDto.Title ?? note.Title;
             note.Content = noteDto.Content ?? note.Content;
             note.IsPinned = noteDto.IsPinned ?? note.IsPinned;
@@ -143,8 +128,8 @@ namespace StudentLifeApp_BE.Controllers
 
             return Ok(new
             {
-                note.NoteID,
-                note.UserID,
+                note.NoteId,
+                note.UserId,
                 note.Title,
                 note.Content,
                 note.IsPinned,
@@ -154,17 +139,14 @@ namespace StudentLifeApp_BE.Controllers
         }
 
         // DELETE: api/notes/5
-        // Delete note
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteNote(int id, [FromQuery] int userId)
         {
             var note = await _context.Notes
-                .FirstOrDefaultAsync(n => n.NoteID == id && n.UserID == userId);
+                .FirstOrDefaultAsync(n => n.NoteId == id && n.UserId == userId);
 
             if (note == null)
-            {
                 return NotFound(new { message = "Note not found or you don't have permission to delete it" });
-            }
 
             _context.Notes.Remove(note);
             await _context.SaveChangesAsync();
@@ -173,17 +155,14 @@ namespace StudentLifeApp_BE.Controllers
         }
 
         // PATCH: api/notes/5/pin
-        // Toggle pin status
         [HttpPatch("{id}/pin")]
         public async Task<IActionResult> TogglePin(int id, [FromQuery] int userId)
         {
             var note = await _context.Notes
-                .FirstOrDefaultAsync(n => n.NoteID == id && n.UserID == userId);
+                .FirstOrDefaultAsync(n => n.NoteId == id && n.UserId == userId);
 
             if (note == null)
-            {
                 return NotFound(new { message = "Note not found or you don't have permission to update it" });
-            }
 
             note.IsPinned = !note.IsPinned;
             note.UpdatedAt = DateTime.Now;
@@ -192,38 +171,33 @@ namespace StudentLifeApp_BE.Controllers
 
             return Ok(new
             {
-                note.NoteID,
+                note.NoteId,
                 note.IsPinned,
-                message = note.IsPinned ? "Note pinned" : "Note unpinned"
+                message = note.IsPinned == true ? "Note pinned" : "Note unpinned"
             });
         }
 
         // GET: api/notes/search
-        // Search notes by title or content
         [HttpGet("search")]
         public async Task<ActionResult<IEnumerable<object>>> SearchNotes(
             [FromQuery] int userId,
             [FromQuery] string query)
         {
             if (userId <= 0)
-            {
                 return BadRequest("User ID is required");
-            }
 
             if (string.IsNullOrWhiteSpace(query))
-            {
                 return BadRequest("Search query is required");
-            }
 
             var notes = await _context.Notes
-                .Where(n => n.UserID == userId &&
-                    (n.Title.Contains(query) || n.Content.Contains(query)))
+                .Where(n => n.UserId == userId &&
+                    (n.Title!.Contains(query) || n.Content.Contains(query)))
                 .OrderByDescending(n => n.IsPinned)
                 .ThenByDescending(n => n.UpdatedAt)
                 .Select(n => new
                 {
-                    n.NoteID,
-                    n.UserID,
+                    n.NoteId,
+                    n.UserId,
                     n.Title,
                     n.Content,
                     n.IsPinned,
@@ -236,10 +210,9 @@ namespace StudentLifeApp_BE.Controllers
         }
     }
 
-    // DTOs for Note operations
     public class CreateNoteDTO
     {
-        public int UserID { get; set; }
+        public int UserId { get; set; }
         public string Title { get; set; } = string.Empty;
         public string Content { get; set; } = string.Empty;
         public bool? IsPinned { get; set; }
@@ -247,7 +220,7 @@ namespace StudentLifeApp_BE.Controllers
 
     public class UpdateNoteDTO
     {
-        public int UserID { get; set; }
+        public int UserId { get; set; }
         public string? Title { get; set; }
         public string? Content { get; set; }
         public bool? IsPinned { get; set; }
