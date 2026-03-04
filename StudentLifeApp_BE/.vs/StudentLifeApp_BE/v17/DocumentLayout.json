@@ -1,42 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Android\\Project_PRM393\\StudentLifeApp_BE\\",
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|d:\\android\\project_prm393\\studentlifeapp_be\\studentlifeapp_be\\services\\interfaces\\iassignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|solutionrelative:studentlifeapp_be\\services\\interfaces\\iassignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|d:\\android\\project_prm393\\studentlifeapp_be\\studentlifeapp_be\\helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|solutionrelative:studentlifeapp_be\\helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|d:\\android\\project_prm393\\studentlifeapp_be\\studentlifeapp_be\\dtos\\authdtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|solutionrelative:studentlifeapp_be\\dtos\\authdtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|d:\\android\\project_prm393\\studentlifeapp_be\\studentlifeapp_be\\dtos\\assignmentdtos\\createassignmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|solutionrelative:studentlifeapp_be\\dtos\\assignmentdtos\\createassignmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|d:\\android\\project_prm393\\studentlifeapp_be\\studentlifeapp_be\\controllers\\assignmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|solutionrelative:studentlifeapp_be\\controllers\\assignmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|d:\\android\\project_prm393\\studentlifeapp_be\\studentlifeapp_be\\studentlifeapp_be.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|solutionrelative:studentlifeapp_be\\studentlifeapp_be.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|d:\\android\\project_prm393\\studentlifeapp_be\\studentlifeapp_be\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|solutionrelative:studentlifeapp_be\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|d:\\android\\project_prm393\\studentlifeapp_be\\studentlifeapp_be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|c:\\users\\admin\\documents\\hoc\\ki8\\prm\\project\\project_prm393\\studentlifeapp_be\\studentlifeapp_be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|solutionrelative:studentlifeapp_be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|d:\\android\\project_prm393\\studentlifeapp_be\\studentlifeapp_be\\models\\lmsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|c:\\users\\admin\\documents\\hoc\\ki8\\prm\\project\\project_prm393\\studentlifeapp_be\\studentlifeapp_be\\services\\scoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|solutionrelative:studentlifeapp_be\\services\\scoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|c:\\users\\admin\\documents\\hoc\\ki8\\prm\\project\\project_prm393\\studentlifeapp_be\\studentlifeapp_be\\controllers\\scorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|solutionrelative:studentlifeapp_be\\controllers\\scorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|c:\\users\\admin\\documents\\hoc\\ki8\\prm\\project\\project_prm393\\studentlifeapp_be\\studentlifeapp_be\\dtos\\insertscoredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|solutionrelative:studentlifeapp_be\\dtos\\insertscoredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|c:\\users\\admin\\documents\\hoc\\ki8\\prm\\project\\project_prm393\\studentlifeapp_be\\studentlifeapp_be\\helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|solutionrelative:studentlifeapp_be\\helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|c:\\users\\admin\\documents\\hoc\\ki8\\prm\\project\\project_prm393\\studentlifeapp_be\\studentlifeapp_be\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|solutionrelative:studentlifeapp_be\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|c:\\users\\admin\\documents\\hoc\\ki8\\prm\\project\\project_prm393\\studentlifeapp_be\\studentlifeapp_be\\models\\lmsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|solutionrelative:studentlifeapp_be\\models\\lmsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|c:\\users\\admin\\documents\\hoc\\ki8\\prm\\project\\project_prm393\\studentlifeapp_be\\studentlifeapp_be\\services\\interfaces\\iassignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|solutionrelative:studentlifeapp_be\\services\\interfaces\\iassignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|c:\\users\\admin\\documents\\hoc\\ki8\\prm\\project\\project_prm393\\studentlifeapp_be\\studentlifeapp_be\\dtos\\assignmentdtos\\createassignmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|solutionrelative:studentlifeapp_be\\dtos\\assignmentdtos\\createassignmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|c:\\users\\admin\\documents\\hoc\\ki8\\prm\\project\\project_prm393\\studentlifeapp_be\\studentlifeapp_be\\studentlifeapp_be.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|solutionrelative:studentlifeapp_be\\studentlifeapp_be.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,15 +50,490 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 116,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:27:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{99a11807-c5db-4877-ad35-09b56a044012}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{9a7cebbb-dc5c-4986-bc49-962da46aa506}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{873151d0-cf2e-48cc-b4bf-ad0394f6a3c3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1377497384:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:17:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:10:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:9:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:8:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:7:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1928210406:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:350743133:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{588470cc-84f8-4a57-9ac4-86bca0625ff4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:9:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:10:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:7:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:26:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:28:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{28836128-fc2c-11d2-a433-00c04f72d18a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f53-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f5cd1b51-c771-5648-966f-646d419b1e7c}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:148:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:38:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:69:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:56:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:58:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "ScoreController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\Controllers\\ScoreController.cs",
+              "RelativeDocumentMoniker": "StudentLifeApp_BE\\Controllers\\ScoreController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\Controllers\\ScoreController.cs",
+              "RelativeToolTip": "StudentLifeApp_BE\\Controllers\\ScoreController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T09:13:00.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ScoreService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\Services\\ScoreService.cs",
+              "RelativeDocumentMoniker": "StudentLifeApp_BE\\Services\\ScoreService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\Services\\ScoreService.cs",
+              "RelativeToolTip": "StudentLifeApp_BE\\Services\\ScoreService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAABoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T09:11:34.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InsertScoreDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\DTOs\\InsertScoreDTO.cs",
+              "RelativeDocumentMoniker": "StudentLifeApp_BE\\DTOs\\InsertScoreDTO.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\DTOs\\InsertScoreDTO.cs",
+              "RelativeToolTip": "StudentLifeApp_BE\\DTOs\\InsertScoreDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T09:10:59.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "IAssignmentService.cs",
-              "DocumentMoniker": "D:\\Android\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\Services\\Interfaces\\IAssignmentService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\Services\\Interfaces\\IAssignmentService.cs",
               "RelativeDocumentMoniker": "StudentLifeApp_BE\\Services\\Interfaces\\IAssignmentService.cs",
-              "ToolTip": "D:\\Android\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\Services\\Interfaces\\IAssignmentService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\Services\\Interfaces\\IAssignmentService.cs",
               "RelativeToolTip": "StudentLifeApp_BE\\Services\\Interfaces\\IAssignmentService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -63,11 +542,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "JwtHelper.cs",
-              "DocumentMoniker": "D:\\Android\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\Helpers\\JwtHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\Helpers\\JwtHelper.cs",
               "RelativeDocumentMoniker": "StudentLifeApp_BE\\Helpers\\JwtHelper.cs",
-              "ToolTip": "D:\\Android\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\Helpers\\JwtHelper.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\Helpers\\JwtHelper.cs",
               "RelativeToolTip": "StudentLifeApp_BE\\Helpers\\JwtHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -76,91 +555,168 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginDTO.cs",
-              "DocumentMoniker": "D:\\Android\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\DTOs\\AuthDTOs\\LoginDTO.cs",
-              "RelativeDocumentMoniker": "StudentLifeApp_BE\\DTOs\\AuthDTOs\\LoginDTO.cs",
-              "ToolTip": "D:\\Android\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\DTOs\\AuthDTOs\\LoginDTO.cs",
-              "RelativeToolTip": "StudentLifeApp_BE\\DTOs\\AuthDTOs\\LoginDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T08:24:50.238Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CreateAssignmentDTO.cs",
-              "DocumentMoniker": "D:\\Android\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\DTOs\\AssignmentDTOs\\CreateAssignmentDTO.cs",
-              "RelativeDocumentMoniker": "StudentLifeApp_BE\\DTOs\\AssignmentDTOs\\CreateAssignmentDTO.cs",
-              "ToolTip": "D:\\Android\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\DTOs\\AssignmentDTOs\\CreateAssignmentDTO.cs",
-              "RelativeToolTip": "StudentLifeApp_BE\\DTOs\\AssignmentDTOs\\CreateAssignmentDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T08:24:02.438Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "StudentLifeApp_BE.csproj",
-              "DocumentMoniker": "D:\\Android\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\StudentLifeApp_BE.csproj",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\StudentLifeApp_BE.csproj",
               "RelativeDocumentMoniker": "StudentLifeApp_BE\\StudentLifeApp_BE.csproj",
-              "ToolTip": "D:\\Android\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\StudentLifeApp_BE.csproj",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\StudentLifeApp_BE.csproj",
               "RelativeToolTip": "StudentLifeApp_BE\\StudentLifeApp_BE.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-04T07:15:02.686Z",
+              "WhenOpened": "2026-03-04T07:15:02.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LmsDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\Models\\LmsDbContext.cs",
+              "RelativeDocumentMoniker": "StudentLifeApp_BE\\Models\\LmsDbContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\Models\\LmsDbContext.cs",
+              "RelativeToolTip": "StudentLifeApp_BE\\Models\\LmsDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T07:27:56.614Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AssignmentsController.cs",
-              "DocumentMoniker": "D:\\Android\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\Controllers\\AssignmentsController.cs",
-              "RelativeDocumentMoniker": "StudentLifeApp_BE\\Controllers\\AssignmentsController.cs",
-              "ToolTip": "D:\\Android\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\Controllers\\AssignmentsController.cs",
-              "RelativeToolTip": "StudentLifeApp_BE\\Controllers\\AssignmentsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA3AAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\Program.cs",
+              "RelativeDocumentMoniker": "StudentLifeApp_BE\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\Program.cs",
+              "RelativeToolTip": "StudentLifeApp_BE\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-02T07:33:08.424Z",
+              "WhenOpened": "2026-03-02T07:27:17.495Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "LmsDbContext.cs",
-              "DocumentMoniker": "D:\\Android\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\Models\\LmsDbContext.cs",
-              "RelativeDocumentMoniker": "StudentLifeApp_BE\\Models\\LmsDbContext.cs",
-              "ToolTip": "D:\\Android\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\Models\\LmsDbContext.cs",
-              "RelativeToolTip": "StudentLifeApp_BE\\Models\\LmsDbContext.cs",
+              "Title": "CreateAssignmentDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\DTOs\\AssignmentDTOs\\CreateAssignmentDTO.cs",
+              "RelativeDocumentMoniker": "StudentLifeApp_BE\\DTOs\\AssignmentDTOs\\CreateAssignmentDTO.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\DTOs\\AssignmentDTOs\\CreateAssignmentDTO.cs",
+              "RelativeToolTip": "StudentLifeApp_BE\\DTOs\\AssignmentDTOs\\CreateAssignmentDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-02T07:27:56.614Z"
+              "WhenOpened": "2026-03-04T08:24:02.438Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Android\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\Program.cs",
-              "RelativeDocumentMoniker": "StudentLifeApp_BE\\Program.cs",
-              "ToolTip": "D:\\Android\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\Program.cs",
-              "RelativeToolTip": "StudentLifeApp_BE\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-02T07:27:17.495Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Android\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\appsettings.json",
               "RelativeDocumentMoniker": "StudentLifeApp_BE\\appsettings.json",
-              "ToolTip": "D:\\Android\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\hoc\\KI8\\PRM\\PROJECT\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\appsettings.json",
               "RelativeToolTip": "StudentLifeApp_BE\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-02T07:26:15.081Z"
+              "WhenOpened": "2026-03-02T07:26:15.081Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 9,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:29:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{26341fe2-71dd-46fd-bb1b-2e51a92a0d64}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:34:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{80c411e8-fd5e-4b16-914b-0d9d84172cc1}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c93a910a-0fa6-4307-93a4-f2bd61ec7828}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:30:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:31:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
             }
           ]
         }

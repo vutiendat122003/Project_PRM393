@@ -30,5 +30,53 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentLifeApp_BE.Controllers.ScoreController",
+    "Method": "InsertScore",
+    "RelativePath": "api/score",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "StudentLifeApp_BE.DTOs.InsertScoreDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentLifeApp_BE.Controllers.ScoreController",
+    "Method": "GetScores",
+    "RelativePath": "api/score/{studentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentLifeApp_BE.Controllers.ScoreController",
+    "Method": "GetGPA",
+    "RelativePath": "api/score/gpa/{studentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
