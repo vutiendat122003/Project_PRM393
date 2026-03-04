@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Android\\StudentLifeApp_BE\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|d:\\android\\studentlifeapp_be\\studentlifeapp_be\\studentlifeapp_be.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|solutionrelative:studentlifeapp_be\\studentlifeapp_be.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|d:\\android\\studentlifeapp_be\\studentlifeapp_be\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|solutionrelative:studentlifeapp_be\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -26,11 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "StudentLifeApp_BE",
+              "DocumentMoniker": "D:\\Android\\StudentLifeApp_BE\\StudentLifeApp_BE\\StudentLifeApp_BE.csproj",
+              "RelativeDocumentMoniker": "StudentLifeApp_BE\\StudentLifeApp_BE.csproj",
+              "ToolTip": "D:\\Android\\StudentLifeApp_BE\\StudentLifeApp_BE\\StudentLifeApp_BE.csproj",
+              "RelativeToolTip": "StudentLifeApp_BE\\StudentLifeApp_BE.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-04T07:15:02.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AssignmentsController.cs",
               "DocumentMoniker": "D:\\Android\\StudentLifeApp_BE\\StudentLifeApp_BE\\Controllers\\AssignmentsController.cs",
               "RelativeDocumentMoniker": "StudentLifeApp_BE\\Controllers\\AssignmentsController.cs",
@@ -43,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "LmsDbContext.cs",
               "DocumentMoniker": "D:\\Android\\StudentLifeApp_BE\\StudentLifeApp_BE\\Models\\LmsDbContext.cs",
               "RelativeDocumentMoniker": "StudentLifeApp_BE\\Models\\LmsDbContext.cs",
@@ -55,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Android\\StudentLifeApp_BE\\StudentLifeApp_BE\\Program.cs",
               "RelativeDocumentMoniker": "StudentLifeApp_BE\\Program.cs",
@@ -67,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Android\\StudentLifeApp_BE\\StudentLifeApp_BE\\appsettings.json",
               "RelativeDocumentMoniker": "StudentLifeApp_BE\\appsettings.json",

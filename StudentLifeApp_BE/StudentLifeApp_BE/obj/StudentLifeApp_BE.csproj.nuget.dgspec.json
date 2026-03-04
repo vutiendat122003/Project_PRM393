@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Android\\StudentLifeApp_BE\\StudentLifeApp_BE\\StudentLifeApp_BE.csproj": {}
+    "D:\\Android\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\StudentLifeApp_BE.csproj": {}
   },
   "projects": {
-    "D:\\Android\\StudentLifeApp_BE\\StudentLifeApp_BE\\StudentLifeApp_BE.csproj": {
+    "D:\\Android\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\StudentLifeApp_BE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Android\\StudentLifeApp_BE\\StudentLifeApp_BE\\StudentLifeApp_BE.csproj",
+        "projectUniqueName": "D:\\Android\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\StudentLifeApp_BE.csproj",
         "projectName": "StudentLifeApp_BE",
-        "projectPath": "D:\\Android\\StudentLifeApp_BE\\StudentLifeApp_BE\\StudentLifeApp_BE.csproj",
+        "projectPath": "D:\\Android\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\StudentLifeApp_BE.csproj",
         "packagesPath": "C:\\Users\\Nhat Anh\\.nuget\\packages\\",
-        "outputPath": "D:\\Android\\StudentLifeApp_BE\\StudentLifeApp_BE\\obj\\",
+        "outputPath": "D:\\Android\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
