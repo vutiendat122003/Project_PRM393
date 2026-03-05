@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'screens/tt01_insert_score_screen.dart';
 import 'screens/tt02_get_score_screen.dart';
 import 'screens/tt03_gpa_screen.dart';
+import 'features/dashboard/student_dashboard_screen.dart';
+import 'features/dashboard/teacher_dashboard_screen.dart';
+import 'features/notes/notes_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,168 +16,138 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Student Life App',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(
-          seedColor: Colors.deepPurple,
-        ),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-
- 
       home: const MenuScreen(),
     );
   }
 }
 
-
 class MenuScreen extends StatelessWidget {
   const MenuScreen({super.key});
+
+  // Hardcoded for testing — same pattern as teammates (studentId: 1)
+  static const int _testStudentId = 1;
+  static const int _testTeacherId = 2;
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Student Life App"),
+        title: const Text('Student Life App'),
+        backgroundColor: Colors.deepPurple,
+        foregroundColor: Colors.white,
       ),
       body: Padding(
         padding: const EdgeInsets.all(20),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
+        child: SingleChildScrollView(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              const SizedBox(height: 10),
 
-            /// TT-01
-            ElevatedButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (_) =>
-                        const TT01InsertScoreScreen(),
-                  ),
-                );
-              },
-              child: const Text("TT-01 Insert Score"),
-            ),
+              // ── Score section ──
+              _SectionHeader(title: 'Score Management'),
+              const SizedBox(height: 8),
+              _MenuButton(
+                label: 'TT-01 Insert Score',
+                icon: Icons.add_chart,
+                onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const TT01InsertScoreScreen())),
+              ),
+              const SizedBox(height: 10),
+              _MenuButton(
+                label: 'TT-02 Get Scores',
+                icon: Icons.list_alt,
+                onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const TT02GetScoreScreen(studentId: _testStudentId))),
+              ),
+              const SizedBox(height: 10),
+              _MenuButton(
+                label: 'TT-03 GPA',
+                icon: Icons.school,
+                onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const TT03GPAScreen(studentId: _testStudentId))),
+              ),
 
-            const SizedBox(height: 15),
+              const SizedBox(height: 24),
 
-            /// TT-02
-            ElevatedButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (_) =>
-                        const TT02GetScoreScreen(
-                          studentId: 1,
-                        ),
-                  ),
-                );
-              },
-              child: const Text("TT-02 Get Scores"),
-            ),
+              // ── Dashboard section ──
+              _SectionHeader(title: 'Dashboards'),
+              const SizedBox(height: 8),
+              _MenuButton(
+                label: 'Student Dashboard',
+                icon: Icons.dashboard,
+                color: Colors.deepPurple,
+                onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const StudentDashboardScreen(userId: _testStudentId))),
+              ),
+              const SizedBox(height: 10),
+              _MenuButton(
+                label: 'Teacher Dashboard',
+                icon: Icons.cast_for_education,
+                color: Colors.indigo,
+                onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const TeacherDashboardScreen(userId: _testTeacherId))),
+              ),
 
-            const SizedBox(height: 15),
+              const SizedBox(height: 24),
 
-            /// TT-03
-            ElevatedButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (_) =>
-                        const TT03GPAScreen(
-                          studentId: 1,
-                        ),
-                  ),
-                );
-              },
-              child: const Text("TT-03 GPA"),
-            ),
+              // ── Notes section ──
+              _SectionHeader(title: 'Notes'),
+              const SizedBox(height: 8),
+              _MenuButton(
+                label: 'My Notes',
+                icon: Icons.note_alt,
+                color: Colors.teal,
+                onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const NotesScreen(userId: _testStudentId))),
+              ),
 
-            const SizedBox(height: 30),
-
-       
-            ElevatedButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (_) =>
-                        const MyHomePage(
-                          title:
-                          "Flutter Demo Home Page",
-                        ),
-                  ),
-                );
-              },
-              child: const Text("Open Counter Demo"),
-            ),
-          ],
+              const SizedBox(height: 30),
+            ],
+          ),
         ),
       ),
     );
   }
 }
 
-
-
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key, required this.title});
-
+class _SectionHeader extends StatelessWidget {
   final String title;
-
-  @override
-  State<MyHomePage> createState() =>
-      _MyHomePageState();
-}
-
-class _MyHomePageState
-    extends State<MyHomePage> {
-
-  int _counter = 0;
-
-  void _incrementCounter() {
-    setState(() {
-      _counter++;
-    });
-  }
+  const _SectionHeader({required this.title});
 
   @override
   Widget build(BuildContext context) {
+    return Text(
+      title,
+      style: const TextStyle(fontSize: 13, fontWeight: FontWeight.w600, color: Colors.grey, letterSpacing: 0.5),
+    );
+  }
+}
 
-    return Scaffold(
-      appBar: AppBar(
-        backgroundColor:
-        Theme.of(context)
-            .colorScheme
-            .inversePrimary,
-        title: Text(widget.title),
-      ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment:
-          MainAxisAlignment.center,
-          children: [
-            const Text(
-                'You have pushed the button this many times:'),
-            Text(
-              '$_counter',
-              style: Theme.of(context)
-                  .textTheme
-                  .headlineMedium,
-            ),
-          ],
-        ),
-      ),
-      floatingActionButton:
-      FloatingActionButton(
-        onPressed:
-        _incrementCounter,
-        tooltip: 'Increment',
-        child:
-        const Icon(Icons.add),
+class _MenuButton extends StatelessWidget {
+  final String label;
+  final IconData icon;
+  final Color color;
+  final VoidCallback onTap;
+
+  const _MenuButton({
+    required this.label,
+    required this.icon,
+    required this.onTap,
+    this.color = Colors.deepPurple,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return ElevatedButton.icon(
+      onPressed: onTap,
+      icon: Icon(icon),
+      label: Text(label),
+      style: ElevatedButton.styleFrom(
+        backgroundColor: color,
+        foregroundColor: Colors.white,
+        padding: const EdgeInsets.symmetric(vertical: 14),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+        alignment: Alignment.centerLeft,
       ),
     );
   }
