@@ -88,7 +88,6 @@ namespace StudentLifeApp_BE.Controllers
                 {
                     SubjectId = subject.SubjectId,
                     subject.SubjectName,
-                    subject.SubjectCode,
                     subject.Credits,
                     TotalAssignments = totalAssignments,
                     CompletedAssignments = completedAssignments,
@@ -217,7 +216,6 @@ namespace StudentLifeApp_BE.Controllers
                 {
                     SubjectId = subject.SubjectId,
                     subject.SubjectName,
-                    subject.SubjectCode,
                     subject.Credits,
                     EnrolledStudents = studentCount,
                     TotalAssignments = subjectAssignments.Count,
