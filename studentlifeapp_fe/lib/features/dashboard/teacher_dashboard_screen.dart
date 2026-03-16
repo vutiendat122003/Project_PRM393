@@ -272,7 +272,7 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
     decoration: BoxDecoration(
       color: Colors.white,
       borderRadius: BorderRadius.circular(12),
-      border: Border.left(color: Colors.orange, width: 4),
+      border: Border(left: BorderSide(color: Colors.orange, width: 4)),
       boxShadow: [BoxShadow(color: Colors.black12, blurRadius: 4)],
     ),
     child: Row(

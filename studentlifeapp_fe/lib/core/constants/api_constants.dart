@@ -1,5 +1,8 @@
 class ApiConstants {
-  static const String baseUrl = 'http://10.0.2.2:5077';
+  // Use localhost for Android emulator, 127.0.0.1 for iOS simulator, or your actual server IP
+  static const String baseUrl = 'http://localhost:5077'; // Android emulator
+  // For iOS simulator, use: 'http://127.0.0.1:5077'
+  // For physical device, use your computer's IP address: 'http://YOUR_IP:5077'
 
   // Dashboard
   static String studentDashboard(int userId) => '$baseUrl/api/dashboard/student/$userId';
