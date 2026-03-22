@@ -246,7 +246,7 @@ class _StudentDashboardScreenState extends State<StudentDashboardScreen> {
       decoration: BoxDecoration(
         color: Colors.white,
         borderRadius: BorderRadius.circular(12),
-        border: Border.left(color: isUrgent ? Colors.red : Colors.deepPurple, width: 4),
+        border: Border(left: BorderSide(color: isUrgent ? Colors.red : Colors.deepPurple, width: 4)),
         boxShadow: [BoxShadow(color: Colors.black12, blurRadius: 4)],
       ),
       child: Row(

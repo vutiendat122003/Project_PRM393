@@ -1,0 +1,94 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Code\\Project_PRM393\\StudentLifeApp_BE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|d:\\code\\project_prm393\\studentlifeapp_be\\studentlifeapp_be\\models\\lmsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|solutionrelative:studentlifeapp_be\\models\\lmsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|d:\\code\\project_prm393\\studentlifeapp_be\\studentlifeapp_be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|solutionrelative:studentlifeapp_be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|d:\\code\\project_prm393\\studentlifeapp_be\\studentlifeapp_be\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|solutionrelative:studentlifeapp_be\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|d:\\code\\project_prm393\\studentlifeapp_be\\studentlifeapp_be\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE5B83A3-C313-4ECF-AA44-21C28B6F4ACA}|StudentLifeApp_BE\\StudentLifeApp_BE.csproj|solutionrelative:studentlifeapp_be\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LmsDbContext.cs",
+              "DocumentMoniker": "D:\\Code\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\Models\\LmsDbContext.cs",
+              "RelativeDocumentMoniker": "StudentLifeApp_BE\\Models\\LmsDbContext.cs",
+              "ToolTip": "D:\\Code\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\Models\\LmsDbContext.cs",
+              "RelativeToolTip": "StudentLifeApp_BE\\Models\\LmsDbContext.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowCMAAACDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T00:17:03.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Code\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\Program.cs",
+              "RelativeDocumentMoniker": "StudentLifeApp_BE\\Program.cs",
+              "ToolTip": "D:\\Code\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\Program.cs",
+              "RelativeToolTip": "StudentLifeApp_BE\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T23:34:29.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "D:\\Code\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "StudentLifeApp_BE\\Controllers\\DashboardController.cs",
+              "ToolTip": "D:\\Code\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "StudentLifeApp_BE\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAADYBAAAAAAAAAAAswEcBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T23:28:17.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NotesController.cs",
+              "DocumentMoniker": "D:\\Code\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\Controllers\\NotesController.cs",
+              "RelativeDocumentMoniker": "StudentLifeApp_BE\\Controllers\\NotesController.cs",
+              "ToolTip": "D:\\Code\\Project_PRM393\\StudentLifeApp_BE\\StudentLifeApp_BE\\Controllers\\NotesController.cs",
+              "RelativeToolTip": "StudentLifeApp_BE\\Controllers\\NotesController.cs",
+              "ViewState": "AgIAALcAAAAAAAAAAAAqwP8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T23:27:39.146Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

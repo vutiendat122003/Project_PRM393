@@ -23,15 +23,17 @@ namespace StudentLifeApp_BE.Controllers
                 .Where(u => u.UserId == userId && u.RoleId == 3)
                 .Select(u => new
                 {
-                    u.UserId,
-                    u.FullName,
-                    u.Email,
-                    u.StudentCode
+                    userId = u.UserId,
+                    fullName = u.FullName,
+                    email = u.Email,
+                    studentCode = u.StudentCode
                 })
                 .FirstOrDefaultAsync();
 
             if (student == null)
+            {
                 return NotFound(new { message = "Student not found" });
+            }
 
             var enrollments = await _context.Enrollments
                 .Where(e => e.UserId == userId && !e.IsTeacher)
@@ -75,25 +77,30 @@ namespace StudentLifeApp_BE.Controllers
                 if (gradedAssignments.Any())
                 {
                     var totalWeight = gradedAssignments.Sum(x => x.assignment.Weight);
-                    averageScore = totalWeight > 0
-                        ? gradedAssignments.Sum(x =>
+                    if (totalWeight > 0)
+                    {
+                        averageScore = gradedAssignments.Sum(x =>
                             (x.status.Score ?? 0) / x.assignment.MaxScore * x.assignment.Weight
-                          ) / totalWeight * 10
-                        : gradedAssignments.Average(x =>
+                        ) / totalWeight * 10;
+                    }
+                    else
+                    {
+                        averageScore = gradedAssignments.Average(x =>
                             (x.status.Score ?? 0) / x.assignment.MaxScore * 10
-                          );
+                        );
+                    }
                 }
 
                 return new
                 {
-                    SubjectId = subject.SubjectId,
-                    subject.SubjectName,
-                    subject.Credits,
-                    TotalAssignments = totalAssignments,
-                    CompletedAssignments = completedAssignments,
-                    CompletionPercentage = Math.Round(completionPercentage, 1),
-                    AverageScore = Math.Round(averageScore, 2),
-                    IsPassing = averageScore >= 5.0
+                    subjectId = subject.SubjectId,
+                    subjectName = subject.SubjectName,
+                    credits = subject.Credits,
+                    totalAssignments = totalAssignments,
+                    completedAssignments = completedAssignments,
+                    completionPercentage = Math.Round(completionPercentage, 1),
+                    averageScore = Math.Round(averageScore, 2),
+                    isPassing = averageScore >= 5.0
                 };
             }).ToList();
 
@@ -104,7 +111,7 @@ namespace StudentLifeApp_BE.Controllers
                 : 0;
 
             var overallAverageScore = subjectProgress.Any()
-                ? subjectProgress.Average(sp => sp.AverageScore)
+                ? subjectProgress.Average(sp => sp.averageScore)
                 : 0;
 
             var recentGrades = statuses
@@ -116,14 +123,14 @@ namespace StudentLifeApp_BE.Controllers
                     assignment => assignment.AssignmentId,
                     (status, assignment) => new
                     {
-                        AssignmentId = assignment.AssignmentId,
-                        AssignmentTitle = assignment.Title,
-                        SubjectName = assignment.Subject.SubjectName,
-                        status.Score,
-                        assignment.MaxScore,
-                        assignment.Weight,
-                        status.SubmittedAt,
-                        ScorePercentage = Math.Round((status.Score ?? 0) / assignment.MaxScore * 10, 2)
+                        assignmentId = assignment.AssignmentId,
+                        assignmentTitle = assignment.Title,
+                        subjectName = assignment.Subject.SubjectName,
+                        score = status.Score,
+                        maxScore = assignment.MaxScore,
+                        weight = assignment.Weight,
+                        submittedAt = status.SubmittedAt,
+                        scorePercentage = Math.Round((status.Score ?? 0) / assignment.MaxScore * 10, 2)
                     })
                 .ToList();
 
@@ -133,32 +140,34 @@ namespace StudentLifeApp_BE.Controllers
                 .Take(5)
                 .Select(a => new
                 {
-                    AssignmentId = a.AssignmentId,
-                    a.Title,
-                    SubjectName = a.Subject.SubjectName,
-                    a.Deadline,
-                    a.MaxScore,
-                    a.Weight,
-                    IsSubmitted = statuses.Any(s => s.AssignmentId == a.AssignmentId),
-                    IsGraded = statuses.Any(s => s.AssignmentId == a.AssignmentId && s.Score != null)
+                    assignmentId = a.AssignmentId,
+                    title = a.Title,
+                    subjectName = a.Subject.SubjectName,
+                    deadline = a.Deadline,
+                    maxScore = a.MaxScore,
+                    weight = a.Weight,
+                    isSubmitted = statuses.Any(s => s.AssignmentId == a.AssignmentId),
+                    isGraded = statuses.Any(s => s.AssignmentId == a.AssignmentId && s.Score != null)
                 })
                 .ToList();
 
-            return Ok(new
+            var dashboard = new
             {
-                Student = student,
-                OverallStatistics = new
+                student = student,
+                overallStatistics = new
                 {
-                    TotalSubjects = enrollments.Count,
-                    TotalAssignments = totalAssignmentsCount,
-                    CompletedAssignments = completedAssignmentsCount,
-                    CompletionPercentage = Math.Round(overallCompletionPercentage, 1),
-                    AverageScore = Math.Round(overallAverageScore, 2)
+                    totalSubjects = enrollments.Count,
+                    totalAssignments = totalAssignmentsCount,
+                    completedAssignments = completedAssignmentsCount,
+                    completionPercentage = Math.Round(overallCompletionPercentage, 1),
+                    averageScore = Math.Round(overallAverageScore, 2)
                 },
-                SubjectProgress = subjectProgress,
-                RecentGrades = recentGrades,
-                UpcomingDeadlines = upcomingDeadlines
-            });
+                subjectProgress = subjectProgress,
+                recentGrades = recentGrades,
+                upcomingDeadlines = upcomingDeadlines
+            };
+
+            return Ok(dashboard);
         }
 
         // GET: api/dashboard/teacher/5
@@ -169,14 +178,16 @@ namespace StudentLifeApp_BE.Controllers
                 .Where(u => u.UserId == userId && u.RoleId == 2)
                 .Select(u => new
                 {
-                    u.UserId,
-                    u.FullName,
-                    u.Email
+                    userId = u.UserId,
+                    fullName = u.FullName,
+                    email = u.Email
                 })
                 .FirstOrDefaultAsync();
 
             if (teacher == null)
+            {
                 return NotFound(new { message = "Teacher not found" });
+            }
 
             var teachingSubjects = await _context.Enrollments
                 .Where(e => e.UserId == userId && e.IsTeacher)
@@ -214,12 +225,12 @@ namespace StudentLifeApp_BE.Controllers
 
                 return new
                 {
-                    SubjectId = subject.SubjectId,
-                    subject.SubjectName,
-                    subject.Credits,
-                    EnrolledStudents = studentCount,
-                    TotalAssignments = subjectAssignments.Count,
-                    UpcomingDeadlines = subjectAssignments.Count(a => a.Deadline >= DateTime.Now)
+                    subjectId = subject.SubjectId,
+                    subjectName = subject.SubjectName,
+                    credits = subject.Credits,
+                    enrolledStudents = studentCount,
+                    totalAssignments = subjectAssignments.Count,
+                    upcomingDeadlines = subjectAssignments.Count(a => a.Deadline >= DateTime.Now)
                 };
             }).ToList();
 
@@ -228,14 +239,14 @@ namespace StudentLifeApp_BE.Controllers
                 .Take(5)
                 .Select(a => new
                 {
-                    AssignmentId = a.AssignmentId,
-                    a.Title,
-                    SubjectName = a.Subject.SubjectName,
-                    a.Deadline,
-                    a.MaxScore,
-                    a.Weight,
-                    TotalSubmissions = allStatuses.Count(s => s.AssignmentId == a.AssignmentId),
-                    GradedSubmissions = allStatuses.Count(s => s.AssignmentId == a.AssignmentId && s.Score != null)
+                    assignmentId = a.AssignmentId,
+                    title = a.Title,
+                    subjectName = a.Subject.SubjectName,
+                    deadline = a.Deadline,
+                    maxScore = a.MaxScore,
+                    weight = a.Weight,
+                    totalSubmissions = allStatuses.Count(s => s.AssignmentId == a.AssignmentId),
+                    gradedSubmissions = allStatuses.Count(s => s.AssignmentId == a.AssignmentId && s.Score != null)
                 })
                 .ToList();
 
@@ -246,3 +257,72 @@ namespace StudentLifeApp_BE.Controllers
                     status => status.AssignmentId,
                     assignment => assignment.AssignmentId,
                     (status, assignment) => new
+                    {
+                        statusId = status.Id,
+                        assignmentId = assignment.AssignmentId,
+                        assignmentTitle = assignment.Title,
+                        subjectName = assignment.Subject.SubjectName,
+                        studentId = status.StudentId,
+                        submittedAt = status.SubmittedAt
+                    })
+                .Take(10)
+                .ToList();
+
+            var dashboard = new
+            {
+                teacher = teacher,
+                overallStatistics = new
+                {
+                    totalSubjects = teachingSubjects.Count,
+                    totalStudents = totalStudents,
+                    totalAssignments = assignments.Count,
+                    totalSubmissions = totalSubmissions,
+                    gradedSubmissions = gradedSubmissions,
+                    pendingGrading = pendingGrading
+                },
+                subjectOverview = subjectOverview,
+                recentAssignments = recentAssignments,
+                pendingSubmissions = pendingSubmissions
+            };
+
+            return Ok(dashboard);
+        }
+
+        // GET: api/dashboard/performance-trend/{userId}
+        [HttpGet("performance-trend/{userId}")]
+        public async Task<ActionResult<object>> GetPerformanceTrend(int userId)
+        {
+            var sixMonthsAgo = DateTime.Now.AddMonths(-6);
+
+            var grades = await _context.StudentAssignmentStatuses
+                .Where(s => s.StudentId == userId &&
+                           s.Score != null &&
+                           s.SubmittedAt >= sixMonthsAgo)
+                .Include(s => s.Assignment)
+                .OrderBy(s => s.SubmittedAt)
+                .ToListAsync();
+
+            var monthlyPerformance = grades
+                .GroupBy(s => new
+                {
+                    Year = s.SubmittedAt!.Value.Year,
+                    Month = s.SubmittedAt.Value.Month
+                })
+                .Select(g => new
+                {
+                    year = g.Key.Year,
+                    month = g.Key.Month,
+                    monthName = new DateTime(g.Key.Year, g.Key.Month, 1).ToString("MMM"),
+                    averageScore = Math.Round(
+                        g.Average(s => (s.Score ?? 0) / s.Assignment.MaxScore * 10), 2
+                    ),
+                    totalAssignments = g.Count()
+                })
+                .OrderBy(m => m.year)
+                .ThenBy(m => m.month)
+                .ToList();
+
+            return Ok(monthlyPerformance);
+        }
+    }
+}

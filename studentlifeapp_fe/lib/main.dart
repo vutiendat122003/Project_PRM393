@@ -4,7 +4,7 @@ import 'screens/tt02_get_score_screen.dart';
 import 'screens/tt03_gpa_screen.dart';
 import 'features/dashboard/student_dashboard_screen.dart';
 import 'features/dashboard/teacher_dashboard_screen.dart';
-import 'features/notes/notes_screen.dart';
+import 'features/dashboard/notes_screen.dart';
 
 void main() {
   runApp(const MyApp());
